@@ -5,18 +5,25 @@ body {
 
 #background {
     width: 100vw;
-    padding: 7vh 0;
+    height: 100vh;
     background-color: #eee;
     overflow: hidden;
 }
 
+/* Container && Page */
 #container {
     position: relative;
     left: 0;
     white-space: nowrap; /* 防止内部元素换行 */
     width: 100%;
-    height: 86vh;
+    height: 100vh;
+    margin-top: 0;
+    font-size: 0; /* 消除子元素空隙 */
     transition: 1s;
+}
+#container.changing {
+    height: 86vh;
+    margin-top: 7vh;
 }
 
 div.page {
@@ -31,7 +38,7 @@ div.page {
 div.page:not(:last-child) {
     margin-right: 10vw
 }
-
+/* Container && Page End */
 
 /* Button */
 button.btn-pre,
