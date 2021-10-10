@@ -35,6 +35,11 @@ div.page {
                 0 3px 1px -2px rgba(0, 0, 0, 0.12),
                 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
+div.page span {
+    margin: 2vw 2vh;
+    font-size: xx-large;
+    color: #333;
+}
 div.page:not(:last-child) {
     margin-right: 10vw
 }
