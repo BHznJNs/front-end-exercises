@@ -9,3 +9,4 @@
 ## 目录
 
 - [页面切换滑动动画](https://bhznjns.github.io/front-end-animations/页面切换滑动动画/)
+- [折叠伸缩图片](https://bhznjns.github.io/front-end-animations/折叠伸缩图片/)
