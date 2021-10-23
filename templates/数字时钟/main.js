@@ -43,9 +43,9 @@ setInterval(() => {
     numChanger()
 }, 1000)
 // 离开界面时，保存颜色主题
-// addEventListener("beforeunload", () => {
-//     localStorage.setItem("colorTheme", OUTER.classList[0])
-// })
+addEventListener("beforeunload", () => {
+    localStorage.setItem("colorTheme", OUTER.classList[0])
+})
 // 切换颜色主题函数
 function changeTheme() {
     let originTheme = OUTER.classList[0]
