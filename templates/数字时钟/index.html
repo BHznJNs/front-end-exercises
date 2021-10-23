@@ -15,7 +15,9 @@
             OUTER.classList.remove(OUTER.classList[0])
             // 获取并设置本地储存的颜色主题
             const colorTheme = localStorage.getItem("colorTheme")
-            OUTER.classList.add(colorTheme)
+            if (colorTheme) {
+                OUTER.classList.add(colorTheme)
+            }
         </script>
 
         <div id="gh-logo" onclick="location.href='https://github.com/BHznJNs/front-end-animations'">
