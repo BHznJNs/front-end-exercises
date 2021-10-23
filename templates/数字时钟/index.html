@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数字时钟</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./color.css">
+</head>
+<body>
+    <div id="outer" class="light">
+        <script>
+            const OUTER = document.querySelector("#outer")
+            OUTER.classList.remove(OUTER.classList[0])
+            // 获取并设置本地储存的颜色主题
+            const colorTheme = localStorage.getItem("colorTheme")
+            OUTER.classList.add(colorTheme)
+        </script>
+
+        <div id="gh-logo" onclick="location.href='https://github.com/BHznJNs/front-end-animations'">
+            <img class="gh-logo-img" src="../../assets/github-light.svg">
+        </div>
+
+        <div id="timebox">
+            <div id="hour" class="time"></div>
+            <div class="time-sep">:</div>
+            <div id="minute" class="time"></div>
+            <div class="time-sep">:</div>
+            <div id="second" class="time"></div>
+        </div>
+        <!-- 切换界面颜色主题按钮 -->
+        <div id="changer" onclick="changeTheme()"></div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
