@@ -30,11 +30,13 @@ body {
     height: 6rem;
     border-bottom-right-radius: 100%;
     cursor: pointer;
+    transition: .3s;
 }
 .gh-logo-img {
     width: 4rem;
     padding: .6rem .6rem;
     transform: rotate(-45deg);
+    transition: .3s;
 }
 /* Github Logo */
 
