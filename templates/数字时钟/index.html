@@ -12,10 +12,10 @@
     <div id="outer" class="light">
         <script>
             const OUTER = document.querySelector("#outer")
-            OUTER.classList.remove(OUTER.classList[0])
             // 获取并设置本地储存的颜色主题
             const colorTheme = localStorage.getItem("colorTheme")
             if (colorTheme) {
+                OUTER.classList.remove(OUTER.classList[0])
                 OUTER.classList.add(colorTheme)
             }
         </script>
