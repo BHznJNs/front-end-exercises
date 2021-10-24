@@ -1,8 +1,6 @@
-# 前端动画效果集 | front-end-animation
+# 前端练习簿
 
-记录各种由前端实现的动画效果
-
-动画皆由纯`CSS`及`Vanilla JS`编写
+所有界面皆由纯`CSS`及`Vanilla JS`编写。
 
 ******
 
